@@ -1,0 +1,41 @@
+{
+  "name": "code4mk/kapi-socialite",
+  "description": "Kapi socialite for your laravel project",
+  "keywords": [
+    "kapi",
+    "socialite",
+    "api",
+    "kauth",
+    "code4mk",
+    "0devco",
+    "api"
+  ],
+  "homepage": "https://github.com/code4mk/kapi-socialite",
+  "support": {
+    "issues": "https://github.com/code4mk/kapi-socialite/issues",
+    "source": "https://github.com/code4mk/kapi-socialite"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "code4mk",
+      "email": "hiremostafa@gmail.com",
+      "website": "https://code4mk.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Code4mk\\KapiSocialite\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Code4mk\\KapiSocialite\\KapiSocialServiceProvider",
+            "Code4mk\\KapiSocialite\\KapiSocialiteServiceProvider"
+        ]
+    }
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
