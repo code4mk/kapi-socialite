@@ -25,6 +25,9 @@ class KapiSocialServiceProvider extends ServiceProvider
        $this->publishes([
         __DIR__ . '/../config/kapisocialite.php' => config_path('kapisocialite.php')
        ], 'config');
+
+       // Manually register service providers
+        $this->app->register('Code4mk\\KapiSocialite\\KapiSocialiteServiceProvider');
    }
 
   /**

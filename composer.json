@@ -31,7 +31,7 @@
   "extra": {
     "laravel": {
         "providers": [
-            "Code4mk\\KapiSocialite\\KapiSocialiteServiceProvider"
+            "Code4mk\\KapiSocialite\\KapiSocialServiceProvider"
         ]
     }
   },
